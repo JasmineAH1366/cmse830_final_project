@@ -4,6 +4,6 @@ pandas
 seaborn
 streamlit
 matplotlib
-sklearn
+scikit-learn
 train_test_split
 DecisionTreeClassifier
