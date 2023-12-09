@@ -12,7 +12,7 @@ from sklearn import neighbors
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error
 
-salary_3 = pd.read_csv("C:\\Users\\12058\\OneDrive\\Documents\\CMSE 830 - Foundations of Data Science\\cmse830_final_project\\salary_complete.csv")
+salary_3 = pd.read_csv("salary_complete.csv")
 
 #Feature Variables - Age, Gender, Education Level, Years of Experience, Salary
 X = salary_3.iloc[:, [0,1,2,4,5]].values
@@ -40,7 +40,7 @@ tab1, tab2, tab3, tab4 = st.tabs(["Introduction", "Job Recommender", "Conclusion
 with tab1:
     col11, col12 = st.columns(2)
     with col11:
-        image2 = Image.open("C:\\Users\\12058\\OneDrive\\Documents\\CMSE 830 - Foundations of Data Science\\cmse830_final_project\\JOB.png")
+        image2 = Image.open("JOB.png")
         st.image(image2)
     with col12:
         st.write("Ready to continue this journey? Continue? Yes! This app serves the purpose of continuing the journey we have started in the previous app.")
@@ -114,7 +114,7 @@ with tab3:
         st.write("Please visit the Bio tab to learn more about the creator of this app.")
     
     with col2:
-        image5 = Image.open("C:\\Users\\12058\\OneDrive\\Documents\\CMSE 830 - Foundations of Data Science\\cmse830_final_project\\Safe_Journey_Quotes_Artboard-1.jpg")
+        image5 = Image.open("Safe_Journey_Quotes_Artboard-1.jpg")
         imagenew5 = image5.resize((600,400))
         st.image(image5)
     
@@ -123,7 +123,7 @@ with tab3:
 with tab4: 
     col11, col12 = st.columns(2)
     with col11:
-        image = Image.open("C:\\Users\\12058\\OneDrive\\Documents\\CMSE 830 - Foundations of Data Science\\cmse830_final_project\\IMG_8945_Original.JPG")
+        image = Image.open("IMG_8945_Original.JPG")
         st.image(image)
     with col12:
         st.write("Jasmine Anita Harris is a graduate student at Michigan State University studying Data Science. Her anticipated graduation date is April 2024.")
