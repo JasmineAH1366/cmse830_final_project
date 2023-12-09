@@ -3,14 +3,9 @@ import streamlit as st
 import pandas as pd
 import altair as alt
 import seaborn as sns
-import matplotlib.pyplot as plt
 from PIL import Image
-import plotly.express as px
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
-from sklearn import neighbors
-from sklearn.ensemble import RandomForestRegressor
-from sklearn.metrics import mean_squared_error
 
 salary_3 = pd.read_csv("salary_complete.csv")
 
