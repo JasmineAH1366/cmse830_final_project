@@ -5,5 +5,3 @@ seaborn
 streamlit
 matplotlib
 scikit-learn
-train_test_split
-DecisionTreeClassifier
